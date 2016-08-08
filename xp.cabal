@@ -12,6 +12,7 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Xp
+                       Xp.Data.Time
   build-depends:       base >= 3 && < 5
   default-language:    Haskell2010
 
