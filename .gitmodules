@@ -1,0 +1,3 @@
+[submodule "psi"]
+	path = psi
+	url = https://github.com/olorin/psi

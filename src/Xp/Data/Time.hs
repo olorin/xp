@@ -1,4 +1,5 @@
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
+{-# LANGUAGE NoImplicitPrelude #-}
 
 module Xp.Data.Time (
     Interval(..)
@@ -8,7 +9,9 @@ module Xp.Data.Time (
   , Recurrence(..)
   ) where
 
-import           Data.Word (Word)
+import           Psi
+
+import           Text.Show (Show)
 
 newtype Interval =
   Interval {
